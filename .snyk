@@ -1,0 +1,18 @@
+version: v1.5.2
+ignore: {}
+patch:
+  'npm:negotiator:20160616':
+    - socket.io > engine.io > accepts > negotiator:
+        patched: '2016-09-29T22:05:58.494Z'
+  'npm:tough-cookie:20160722':
+    - piping-extended > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2016-09-29T22:05:58.494Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2016-09-29T22:05:58.494Z'
+  'npm:ws:20160624':
+    - socket.io-client > engine.io-client > ws:
+        patched: '2016-09-29T22:05:58.494Z'
+    - socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2016-09-29T22:05:58.494Z'
+    - socket.io > engine.io > ws:
+        patched: '2016-09-29T22:05:58.494Z'
